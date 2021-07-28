@@ -1,0 +1,99 @@
+[
+    {
+        "model": "api.user",
+        "pk": 1,
+        "fields": {
+            "name": "The One Thing",
+            "email": "test@tripadvisor.com"
+        }
+    },
+
+    {
+        "model": "api.user",
+        "pk": 2,
+        "fields": {
+            "name": "The One Thing",
+            "email": "test2@tripadvisor.com"
+        }
+    },
+
+    {
+        "model": "api.user",
+        "pk": 3,
+        "fields": {
+            "name": "The One Thing",
+            "email": "test3@tripadvisor.com"
+        }
+    },
+
+    {
+        "model": "api.user",
+        "pk": 4,
+        "fields": {
+            "name": "The One Thing",
+            "email": "test4@tripadvisor.com"
+        }
+    },
+    {
+        "model": "api.idea",
+        "pk": 1,
+        "fields": {
+            "title": "Clean Code",
+            "description": "Robert Cecil Martin",
+            "eventName": "2008",
+            "user_id": 1,
+            "timestamp":"2021-07-13 16:10:01.759731",
+            "updated": "2021-07-13 16:10:01.759731"
+        }
+    },
+    {
+        "model": "api.idea",
+        "pk": 2,
+        "fields": {
+            "title": "Clean Code",
+            "description": "Robert Cecil Martin",
+            "eventName": "2009",
+            "user_id": 2,
+            "timestamp":"2021-07-13 16:10:01.759731",
+            "updated": "2021-07-13 16:10:01.759731"
+        }
+    },
+    {
+        "model": "api.idea",
+        "pk": 3,
+        "fields": {
+            "title": "Clean Code",
+            "description": "Robert Cecil Martin",
+            "eventName": "2011",
+            "user_id": 3,
+            "timestamp":"2021-07-13 16:10:01.759731",
+            "updated": "2021-07-13 16:10:01.759731"
+        }
+    },
+    {
+        "model": "api.comment",
+        "pk":2,
+        "fields": {
+            "comment": "Clean Code",
+            "description": "Robert Cecil Martin",
+            "eventName": "2011",
+            "user_id": 1,
+            "idea_id":2,
+            "timestamp":"2021-07-13 16:10:01.759731",
+            "updated": "2021-07-13 16:10:01.759731"
+        }
+    },
+    {
+        "model": "api.comment",
+        "pk":2,
+        "fields": {
+            "comment": "Clean Code",
+            "description": "Robert Cecil Martin",
+            "eventName": "2011",
+            "user_id": 1,
+            "idea_id":2,
+            "timestamp":"2021-07-13 16:10:01.759731",
+            "updated": "2021-07-13 16:10:01.759731"
+        }
+    }
+]
