@@ -22,12 +22,11 @@ python manage.py runserver
 ```
 go to http://localhost:8000/graphq
 
+
 ```
 
-Graphsql query:
+#Graphsql query:
 #create new idea
-```
-
 mutation createMutation {
   createIdea(ideaData: {title: "Things Apart", description: "Chinua_Achebe@ta.com", eventName:"test", userId:3}) {
     idea {
